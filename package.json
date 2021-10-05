@@ -1,0 +1,33 @@
+{
+  "name": "@scdev/declarative-markdown",
+  "version": "1.0.0-0",
+  "description": "A simple and configurable Next.js API handler wrapper that avoids pointless boilerplate",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "tap",
+    "posttest": "tap --coverage-report=html --no-browser "
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "Next.js",
+    "React.js",
+    "api",
+    "router",
+    "handler"
+  ],
+  "author": "Simone Corsi",
+  "license": "MIT",
+  "devDependencies": {
+    "@istanbuljs/esm-loader-hook": "^0.1.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "got": "^11.8.2",
+    "ioredis-mock": "^5.6.0",
+    "mock-req-res": "^1.2.0",
+    "prettier": "^2.3.2",
+    "tap": "^15.0.10"
+  }
+}
