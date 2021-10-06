@@ -66,10 +66,9 @@ tap.test('Shoud generate Markdown', async (t) => {
     .image('http://ajeje.com/image.png', 'ALTTEXT')
     .tableOfContent();
 
-  await fs.writeFile('./test/fixtures/output.md', mkd.render());
-
-  // const fixtures = await fs.readFile('./test/fixtures/output.md', 'utf-8');
-  // t.equal(mkd.render(), fixtures);
+  const file = await fs.readFile('./test/fixtures/output', 'utf-8');
+  const render = mkd.render() + '\n';
+  t.equal(file, render);
   t.end();
 });
 

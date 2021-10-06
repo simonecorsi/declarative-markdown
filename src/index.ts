@@ -20,8 +20,6 @@ export default class Markdown {
     let list = [];
     if (!this.LINES.length) return;
 
-    this.header('Table of Contents', 2);
-
     for (const line of this.LINES) {
       if (line.startsWith('#')) {
         const depth = line.split('#').filter((c) => c === '').length - 1;
@@ -35,8 +33,8 @@ export default class Markdown {
 
     if (onTop) {
       const lng = this.LINES.length;
-      const toc = this.LINES.splice(lng - 2, 2);
-      this.LINES.splice(1, 0, ...toc);
+      const toc = this.LINES.splice(lng - 1, 1);
+      this.LINES.splice(1, 0, '## Table of Contents', ...toc);
     }
 
     return this;

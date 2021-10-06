@@ -9,17 +9,15 @@
   - Numbered List
   - Task List
   - images
-  - Table of Contents
 
 ## Paragraphs
 
-My _Italic_ text and the **bold** one
+My *Italic* text and the **bold** one
 
-Let's add a [link](http://google.com), why not a quote:
-
+Let's add a [link](http://google.com), why not a quote: 
 > I've become death, destructor of worlds
 
-Do you want to see my fancy `alert('x')`, but I've a better example here:
+Do you want to see my fancy `alert('x')`, but I've a better example here: 
 
 ```go
 package main
@@ -28,9 +26,9 @@ package main
 
 ## Table
 
-| id  | name   |
-| --- | ------ |
-| 1   | Simone |
+| id | name |
+| --- | --- |
+| 1 | Simone |
 
 ## List
 
@@ -52,7 +50,7 @@ package main
 
 ## Task List
 
-- [x] list1
+- [X] list1
 - [ ] nested
 - [ ] nested2
 - [ ] list2
