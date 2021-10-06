@@ -3,5 +3,7 @@
     "target": "ES6",
     "esModuleInterop": true,
     "module": "commonjs"
-  }
+  },
+  "exclude": ["test/**"],
+  "include": ["src"]
 }

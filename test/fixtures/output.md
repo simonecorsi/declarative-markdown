@@ -1,0 +1,66 @@
+# Declarative Markdown Generator
+
+## Table of Contents
+
+- Declarative Markdown Generator
+  - Paragraphs
+  - Table
+  - List
+  - Numbered List
+  - Task List
+  - images
+  - Table of Contents
+
+## Paragraphs
+
+My _Italic_ text and the **bold** one
+
+Let's add a [link](http://google.com), why not a quote:
+
+> I've become death, destructor of worlds
+
+Do you want to see my fancy `alert('x')`, but I've a better example here:
+
+```go
+package main
+ func main(){}
+```
+
+## Table
+
+| id  | name   |
+| --- | ------ |
+| 1   | Simone |
+
+## List
+
+- list1
+  - nested
+  - nested2
+- list2
+  - nested
+  - nested2
+
+## Numbered List
+
+1. list1
+2. nested
+3. nested2
+4. list2
+5. nested
+6. nested2
+
+## Task List
+
+- [x] list1
+- [ ] nested
+- [ ] nested2
+- [ ] list2
+- [ ] nested
+- [ ] nested2
+
+## images
+
+![http://ajeje.com/image.png](http://ajeje.com/image.png)
+
+![ALTTEXT](http://ajeje.com/image.png)

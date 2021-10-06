@@ -4,8 +4,9 @@
   "description": "A simple and configurable Next.js API handler wrapper that avoids pointless boilerplate",
   "main": "index.mjs",
   "scripts": {
-    "build": "tsc index.ts",
+    "build": "tsc",
     "test": "tap --ts",
+    "coverage": "tap --coverage-report=html",
     "prepare": "husky install"
   },
   "keywords": [
@@ -42,8 +43,5 @@
     "tap": "^15.0.10",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3"
-  },
-  "dependencies": {
-    "@types/tap": "^15.0.5"
   }
 }

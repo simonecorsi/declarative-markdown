@@ -1,53 +1,84 @@
+// @ts-n
 import tap from 'tap';
-import {
-  table,
-  link,
-  code,
-  inlineCode,
-  quote,
-  italic,
-  bold,
-} from '../utils/common';
+import Markdown, { italic, bold, link, quote, inlineCode, code } from '../src';
+import fs from 'fs/promises';
 
-tap.test('italic', (t) => {
-  t.equal(italic('ok'), '*ok*');
+tap.test('Shoud generate Markdown', async (t) => {
+  t.throws(() => {
+    // @ts-ignore
+    return new Markdown();
+  });
+
+  const mkd = new Markdown('Declarative Markdown Generator');
+  t.equal(mkd.render(), '# Declarative Markdown Generator');
+
+  mkd
+    .header('Paragraphs', 2)
+    .paragraph(`My ${italic('Italic')} text and the ${bold('bold')} one`)
+    .paragraph(
+      `Let's add a ${link(
+        'link',
+        'http://google.com'
+      )}, why not a quote: ${quote("I've become death, destructor of worlds")}`
+    )
+    .paragraph(
+      `Do you want to see my fancy ${inlineCode(
+        "alert('x')"
+      )}, but I've a better example here: ${code(
+        'package main\n func main(){}',
+        'go'
+      )}`
+    )
+    .header('Table', 2)
+    .table(['id', 'name'], ['1', 'Simone'])
+    .header('List', 2)
+    .list([
+      { text: 'list1', depth: 0 },
+      { text: 'nested', depth: 1 },
+      { text: 'nested2', depth: 1 },
+      { text: 'list2' },
+      { text: 'nested', depth: 1 },
+      { text: 'nested2', depth: 1 },
+    ])
+    .header('Numbered List', 2)
+    .list(
+      [
+        { text: 'list1' },
+        { text: 'nested' },
+        { text: 'nested2' },
+        { text: 'list2' },
+        { text: 'nested' },
+        { text: 'nested2' },
+      ],
+      true
+    )
+    .header('Task List', 2)
+    .tasks([
+      { text: 'list1', checked: true },
+      { text: 'nested' },
+      { text: 'nested2' },
+      { text: 'list2' },
+      { text: 'nested' },
+      { text: 'nested2' },
+    ])
+    .header('images', 2)
+    .image('http://ajeje.com/image.png')
+    .image('http://ajeje.com/image.png', 'ALTTEXT')
+    .tableOfContent();
+
+  await fs.writeFile('./test/fixtures/output.md', mkd.render());
+
+  // const fixtures = await fs.readFile('./test/fixtures/output.md', 'utf-8');
+  // t.equal(mkd.render(), fixtures);
   t.end();
 });
 
-tap.test('bold', (t) => {
-  t.equal(bold('ok'), '**ok**');
-  t.end();
-});
+tap.test('Check throws', (t) => {
+  const mkd = new Markdown('Throw test');
 
-tap.test('quote', (t) => {
-  t.equal(quote('ok'), '> ok');
-  t.end();
-});
-
-tap.test('link', (t) => {
-  const l = 'http://google.com';
-  const txt = 'link';
-  t.equal(link(txt, link), `[${txt}](${link})`);
-  t.end();
-});
-
-tap.test('code', (t) => {
-  const codeBlock = "alert('x')";
-  t.equal(inlineCode(codeBlock), '`' + codeBlock + '`');
-  t.equal(code(codeBlock), '```\n' + codeBlock + '\n```');
-  t.equal(
-    code(codeBlock, 'javascript'),
-    '```javascript\n' + codeBlock + '\n```'
-  );
-  t.end();
-});
-
-tap.test('table', (t) => {
-  const headers = ['id', 'name'];
-  const rows = ['1', 'Ajeje'];
-  let out = '| id | name |\n';
-  out += '| --- | --- |\n';
-  out += '| 1 | Ajeje |\n';
-  t.equal(table(headers, rows), out);
+  // @ts-ignore
+  t.throws(() => mkd.list('test'));
+  // @ts-ignore
+  t.throws(() => mkd.tasks('test'));
   t.end();
 });
