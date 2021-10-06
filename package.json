@@ -2,7 +2,8 @@
   "name": "@scdev/declarative-markdown",
   "version": "1.0.0-0",
   "description": "A simple and configurable Next.js API handler wrapper that avoids pointless boilerplate",
-  "main": "index.mjs",
+  "main": "./dist/index.js",
+  "types": "./types/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "tap --ts",
@@ -29,6 +30,7 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@istanbuljs/esm-loader-hook": "^0.1.2",
+    "@types/tap": "^15.0.5",
     "cz-conventional-changelog": "^3.1.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",

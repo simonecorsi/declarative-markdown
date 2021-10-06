@@ -2,7 +2,10 @@
   "compilerOptions": {
     "target": "ES6",
     "esModuleInterop": true,
-    "module": "commonjs"
+    "module": "commonjs",
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "types/"
   },
   "exclude": ["test/**"],
   "include": ["src"]

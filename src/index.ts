@@ -5,7 +5,7 @@ export type ListItems<T> = Array<T>;
 export type ListItem = { text: string; depth?: number };
 export type TaskItem = { text: string; checked?: boolean };
 
-export default class Markdown {
+export class Markdown {
   LINES: string[];
 
   constructor(title: string) {
