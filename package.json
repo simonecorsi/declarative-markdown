@@ -4,6 +4,10 @@
   "description": "A simple and configurable Next.js API handler wrapper that avoids pointless boilerplate",
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "build": "tsc",
     "test": "tap --ts",
