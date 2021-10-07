@@ -4,6 +4,9 @@
   "description": "This packages aims to help you generate markdown in a declarative way!",
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
+  "repository": {
+    "url": "https://github.com/simonecorsi/declarative-markdown"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
@@ -19,12 +22,15 @@
     "generator",
     "declarative",
     "javascript",
+    "typescript",
+    "programmatic",
+    "md",
     "js",
     "esnext",
     "node",
     "npm"
   ],
-  "author": "Simone Corsi",
+  "author": "Simone Corsi <simonecorsi.dev@gmail.com>",
   "license": "MIT",
   "config": {
     "commitizen": {
