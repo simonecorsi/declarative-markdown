@@ -12,7 +12,7 @@
     "build": "tsc",
     "test": "tap --ts",
     "coverage": "tap --coverage-report=html",
-    "prepare": "husky install"
+    "prepare": "is-ci || husky install"
   },
   "keywords": [
     "node",
@@ -41,6 +41,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^6.0.0",
+    "is-ci": "^3.0.0",
     "lint-staged": "^11.2.0",
     "markdown-toc": "^1.2.0",
     "nyc": "^15.1.0",
