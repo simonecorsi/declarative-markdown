@@ -1,7 +1,7 @@
 {
   "name": "@scdev/declarative-markdown",
   "version": "1.1.0",
-  "description": "A simple and configurable Next.js API handler wrapper that avoids pointless boilerplate",
+  "description": "This packages aims to help you generate markdown in a declarative way!",
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
   "publishConfig": {
@@ -15,13 +15,14 @@
     "prepare": "is-ci || husky install"
   },
   "keywords": [
+    "markdown",
+    "generator",
+    "declarative",
+    "javascript",
+    "js",
+    "esnext",
     "node",
-    "npm",
-    "Next.js",
-    "React.js",
-    "api",
-    "router",
-    "handler"
+    "npm"
   ],
   "author": "Simone Corsi",
   "license": "MIT",
