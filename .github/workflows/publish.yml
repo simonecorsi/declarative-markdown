@@ -6,33 +6,29 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-atest
-    steps:
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 14
-
-      - uses: bahmutov/npm-install@v1
-
-      - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - run: npm cit
-
-  version:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
-
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: bahmutov/npm-install@v1
+      - run: npm cit
 
+  version:
+    needs: [test]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - uses: bahmutov/npm-install@v1
       - run: npm ci && npm run build
 
       - name: Bump version and push tag
