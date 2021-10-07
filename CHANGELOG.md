@@ -1,4 +1,11 @@
-## 1.1.0 (2021-10-07)
+## [1.2.0](https://github.com/simonecorsi/declarative-markdown/compare/1.1.0...1.2.0) (2021-10-07)
+
+
+### Features
+
+* avoids publishing if no changelog ([54c275b](https://github.com/simonecorsi/declarative-markdown/commit/54c275b1ec15f3b983649005def7f0968d2b7de1))
+
+## [1.1.0](https://github.com/simonecorsi/declarative-markdown/compare/2ee562deb0ec167ec50fa8457850805afb3e69d0...1.1.0) (2021-10-07)
 
 
 ### Features
