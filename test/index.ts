@@ -1,6 +1,6 @@
 // @ts-n
 import tap from 'tap';
-import Markdown, { italic, bold, link, quote, inlineCode, code } from '../src';
+import { Markdown, italic, bold, link, quote, inlineCode, code } from '../src';
 import fs from 'fs/promises';
 
 tap.test('Shoud generate Markdown', async (t) => {
