@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/simonecorsi/declarative-markdown/compare/1.2.0...1.3.0) (2021-10-08)
+
+
+### Features
+
+* better release actions ([43b445d](https://github.com/simonecorsi/declarative-markdown/commit/43b445d606338366db2eda5729ae1deb9b904024))
+
 ## [1.2.0](https://github.com/simonecorsi/declarative-markdown/compare/1.1.0...1.2.0) (2021-10-07)
 
 
