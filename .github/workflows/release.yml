@@ -51,3 +51,10 @@ jobs:
           tag_name: ${{ steps.changelog.outputs.tag }}
           release_name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.changelog }}
+
+      - name: NPM Publish
+        if: ${{ steps.changelog.outputs.skipped == 'false' }}
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.npm_token }}
+          access: 'public'
