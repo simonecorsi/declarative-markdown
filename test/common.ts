@@ -50,7 +50,7 @@ tap.test('code', (t) => {
 
 tap.test('table', (t) => {
   const headers = ['id', 'name'];
-  const rows = ['1', 'Ajeje'];
+  const rows = [['1', 'Ajeje']];
   let out = '| id | name |\n';
   out += '| --- | --- |\n';
   out += '| 1 | Ajeje |';

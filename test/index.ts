@@ -30,7 +30,7 @@ tap.test('Shoud generate Markdown', async (t) => {
       )}`
     )
     .header('Table', 2)
-    .table(['id', 'name'], ['1', 'Simone'])
+    .table(['id', 'name'], [['1', 'Simone']])
     .header('List', 2)
     .list([
       { text: 'list1', depth: 0 },

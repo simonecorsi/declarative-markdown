@@ -17,7 +17,7 @@ export declare class Markdown {
     paragraph(data: string | number): this;
     header(title: string, n?: number): this;
     image(filepath: string, altText?: string): this;
-    table(columns?: any[], rows?: any[], fmtFnc?: any): this;
+    table(columns?: any[], rows?: any[]): this;
     list(items?: ListItems<ListItem>, numbered?: boolean): this;
     tasks(items?: ListItems<TaskItem>): this;
 }

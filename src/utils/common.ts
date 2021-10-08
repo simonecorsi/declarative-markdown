@@ -1,14 +1,14 @@
 export const CR = '\n\n';
 export const LB = '\n';
 
-export const table = (
-  headers: string[] = [],
-  rows: string[] = [],
-  fmtFnc = (rowValue: any) => rowValue
-) => {
+export const table = (headers: string[] = [], rows: string[][] = []) => {
   let t = '';
   t += `| ${headers.join(' | ')} |${LB}|${' --- |'.repeat(headers.length)}`;
-  t += `${LB}| ${rows.map(fmtFnc).join(' | ')} |`;
+
+  for (const row of rows) {
+    t += `${LB}| ${row.join(' | ')} |`;
+  }
+
   return t;
 };
 

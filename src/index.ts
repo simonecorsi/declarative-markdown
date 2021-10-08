@@ -65,8 +65,8 @@ export class Markdown {
     return this;
   }
 
-  table(columns = [], rows = [], fmtFnc?): this {
-    this.addLine(table(columns, rows, fmtFnc));
+  table(columns = [], rows = []): this {
+    this.addLine(table(columns, rows));
     return this;
   }
 
