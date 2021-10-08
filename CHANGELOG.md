@@ -1,3 +1,10 @@
+### [1.3.2](https://github.com/simonecorsi/declarative-markdown/compare/1.3.1...1.3.2) (2021-10-08)
+
+
+### Bug Fixes
+
+* **table:** rows are now correctly string[][] ([73de9ad](https://github.com/simonecorsi/declarative-markdown/commit/73de9ad97c9e01702526450439af50a31747eeb2))
+
 ### [1.3.1](https://github.com/simonecorsi/declarative-markdown/compare/1.3.0...1.3.1) (2021-10-08)
 
 
