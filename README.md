@@ -37,8 +37,16 @@ yarn add
 
 You can see output of the following snippet [here](./test/fixtures/output)
 
-```js
-import { Markdown, italic, bold, link, quote, inlineCode, code } from '../src';
+```javascript
+import {
+  Markdown,
+  italic,
+  bold,
+  link,
+  quote,
+  inlineCode,
+  code,
+} from '@scdev/declarative-markdown';
 
 const mkd = new Markdown('Declarative Markdown Generator');
 
@@ -96,6 +104,7 @@ mkd
   .tableOfContent();
 
 const string = mkd.render();
+// write it where you want
 ```
 
 <!-- CONTRIBUTING -->
