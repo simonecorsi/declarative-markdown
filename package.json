@@ -15,7 +15,7 @@
     "build": "tsc",
     "test": "tap --ts",
     "coverage": "tap --coverage-report=html",
-    "prepare": "is-ci || husky install"
+    "prepare": "node prepare.js || echo 'Skipping prepare'"
   },
   "keywords": [
     "markdown",
@@ -38,17 +38,23 @@
     }
   },
   "devDependencies": {
+    "@saithodev/semantic-release-backmerge": "^2.0.0",
+    "@semantic-release/changelog": "^6.0.0",
+    "@semantic-release/commit-analyzer": "^9.0.1",
+    "@semantic-release/git": "^10.0.0",
+    "@semantic-release/github": "^8.0.1",
+    "@semantic-release/npm": "^8.0.2",
+    "@semantic-release/release-notes-generator": "^10.0.2",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@istanbuljs/esm-loader-hook": "^0.1.2",
     "@types/tap": "^15.0.5",
-    "cz-conventional-changelog": "^3.1.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^6.0.0",
-    "is-ci": "^3.0.0",
+    "is-ci": "^3.0.1",
     "lint-staged": "^11.2.0",
     "markdown-toc": "^1.2.0",
     "nyc": "^15.1.0",

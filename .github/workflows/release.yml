@@ -2,28 +2,36 @@ name: Release
 
 on:
   push:
-    branches: master
+    branches:
+      - main
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node-version: [12.x, 14.x, 16.x]
+
+    runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 14
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v2.5.0
+        with:
+          node-version: ${{ matrix.node-version }}
       - uses: bahmutov/npm-install@v1
+        with:
+          useLockFile: false
       - run: npm t
 
-  version:
+  release:
     needs: [test]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2.5.0
         with:
-          node-version: 14
+          node-version: 16
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -31,30 +39,8 @@ jobs:
       - uses: bahmutov/npm-install@v1
       - run: npm run build
 
-      - name: Bump version and push tag
-        id: changelog
-        uses: TriPSs/conventional-changelog-action@v3
-        with:
-          preset: 'conventionalcommits'
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          git-message: 'chore(release): {version} [skip ci]'
-          git-user-name: 'Simone Corsi'
-          git-user-email: 'simonecorsi.dev@gmail.com'
-          tag-prefix: ''
-
-      - name: Create github Release
-        uses: actions/create-release@master
-        if: ${{ steps.changelog.outputs.skipped == 'false' }}
+      - name: Semantic release
+        uses: codfish/semantic-release-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ steps.changelog.outputs.tag }}
-          release_name: ${{ steps.changelog.outputs.tag }}
-          body: ${{ steps.changelog.outputs.changelog }}
-
-      - name: NPM Publish
-        if: ${{ steps.changelog.outputs.skipped == 'false' }}
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.npm_token }}
-          access: 'public'
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
