@@ -38,6 +38,9 @@
     }
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@istanbuljs/esm-loader-hook": "^0.2.0",
     "@saithodev/semantic-release-backmerge": "^2.0.0",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.1",
@@ -45,9 +48,7 @@
     "@semantic-release/github": "^8.0.2",
     "@semantic-release/npm": "^9.0.0",
     "@semantic-release/release-notes-generator": "^10.0.2",
-    "@commitlint/cli": "^17.0.0",
-    "@commitlint/config-conventional": "^17.0.0",
-    "@istanbuljs/esm-loader-hook": "^0.2.0",
+    "@types/node": "^18.11.9",
     "@types/tap": "^15.0.5",
     "eslint": "^8.7.0",
     "eslint-config-prettier": "^8.3.0",

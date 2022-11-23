@@ -1,10 +1,10 @@
 export * from './utils/common';
-export declare type ListItems<T> = Array<T>;
-export declare type ListItem = {
+export type ListItems<T> = Array<T>;
+export type ListItem = {
     text: string;
     depth?: number;
 };
-export declare type TaskItem = {
+export type TaskItem = {
     text: string;
     checked?: boolean;
 };
