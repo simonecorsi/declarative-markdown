@@ -47,7 +47,7 @@
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.2",
     "@semantic-release/npm": "^10.0.3",
-    "@semantic-release/release-notes-generator": "^10.0.2",
+    "@semantic-release/release-notes-generator": "^11.0.1",
     "@types/node": "^18.11.9",
     "@types/tap": "^15.0.5",
     "eslint": "^8.7.0",
