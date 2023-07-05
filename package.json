@@ -59,7 +59,7 @@
     "lint-staged": "^13.0.1",
     "markdown-toc": "^1.2.0",
     "nyc": "^15.1.0",
-    "prettier": "^2.3.2",
+    "prettier": "^3.0.0",
     "standard-version": "^9.3.2",
     "tap": "^16.0.0",
     "ts-node": "^10.2.1",
