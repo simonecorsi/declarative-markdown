@@ -1,0 +1,40 @@
+TAP version 14
+# Subtest: italic
+    ok 1 - should be equal
+    ok 2 - should be equal
+    1..2
+ok 1 - italic # time=2.041ms
+
+# Subtest: bold
+    ok 1 - should be equal
+    ok 2 - should be equal
+    1..2
+ok 2 - bold # time=0.27ms
+
+# Subtest: quote
+    ok 1 - should be equal
+    ok 2 - should be equal
+    1..2
+ok 3 - quote # time=0.269ms
+
+# Subtest: link
+    ok 1 - should be equal
+    ok 2 - should be equal
+    1..2
+ok 4 - link # time=0.202ms
+
+# Subtest: code
+    ok 1 - should be equal
+    ok 2 - should be equal
+    ok 3 - should be equal
+    ok 4 - should be equal
+    ok 5 - should be equal
+    1..5
+ok 5 - code # time=0.351ms
+
+# Subtest: table
+    ok 1 - should be equal
+    1..1
+ok 6 - table # time=0.203ms
+
+1..6

@@ -1,0 +1,239 @@
+{
+  "date": "2025-03-19T08:54:09.450Z",
+  "argv": [
+    "/Users/simone.corsi/.volta/tools/image/node/20.13.0/bin/node",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/test/common.ts"
+  ],
+  "execArgv": [
+    "--import=file:///Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import.mjs",
+    "--import=file:///Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/dist/esm/import.mjs",
+    "--enable-source-maps",
+    "--import=file:///Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/processinfo/dist/esm/import.mjs"
+  ],
+  "NODE_OPTIONS": "\"--import=file:///Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/processinfo/dist/esm/import.mjs\"",
+  "cwd": "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown",
+  "pid": 6581,
+  "ppid": 6571,
+  "parent": null,
+  "uuid": "375f69dd-431b-4ebf-8f21-862e8f7769b4",
+  "files": [
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/test/common.ts",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import.mjs",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import-loader.mjs",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/dist/esm/import.mjs",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/dist/esm/mock-service.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/stack/dist/esm/index.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/index.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/is-relative-require.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/dist/esm/export-line.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/dist/esm/munge-mocks.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/dist/esm/service-key.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/dist/esm/resolve-mock-entry-point.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/stack/dist/esm/call-site-like.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/stack/dist/esm/require-resolve.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/get-all-conditional-values.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/get-all-conditions.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/get-unique-condition-sets.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/resolve-all-exports.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/resolve-all-local-imports.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/resolve-conditional-value.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/resolve-import.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/is-windows.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/get-conditional-values-list.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/stack/dist/esm/parse.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/errors.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/get-named-exports-list.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/read-pkg.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/resolve-export.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/star-glob.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/to-path.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/file-exists.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/find-dep-package.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/to-file-url.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/resolve-dependency-export.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/resolve-package-import.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/read-json.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/find-star-match.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/walk-up-path/dist/esm/index.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/dist/esm/index.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/dist/esm/index.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/dist/esm/has-magic.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/dist/esm/glob.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/dist/esm/ignore.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/dist/esm/assert-valid-pattern.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/dist/esm/escape.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/dist/esm/pattern.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/dist/esm/ast.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/dist/esm/unescape.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/dist/esm/walker.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/path-scurry/dist/esm/index.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/dist/esm/brace-expressions.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/path-scurry/node_modules/lru-cache/dist/esm/index.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/dist/esm/processor.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/minipass/dist/esm/index.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/dist/esm/loader.mjs",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/dist/esm/hooks.mjs",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/dist/esm/mock-service-client.js",
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/src/utils/common.ts"
+  ],
+  "sources": {
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/dist/esm/import.mjs": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/src/import.mts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/dist/esm/mock-service.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/src/mock-service.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/stack/dist/esm/index.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/stack/src/index.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/index.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/index.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/is-relative-require.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/is-relative-require.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/dist/esm/export-line.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/src/export-line.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/dist/esm/munge-mocks.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/src/munge-mocks.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/dist/esm/service-key.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/src/service-key.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/dist/esm/resolve-mock-entry-point.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/mock/src/resolve-mock-entry-point.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/stack/dist/esm/call-site-like.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/stack/src/call-site-like.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/stack/dist/esm/require-resolve.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/stack/src/require-resolve.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/get-all-conditional-values.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/get-all-conditional-values.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/get-all-conditions.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/get-all-conditions.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/get-unique-condition-sets.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/get-unique-condition-sets.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/resolve-all-exports.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/resolve-all-exports.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/resolve-all-local-imports.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/resolve-all-local-imports.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/resolve-conditional-value.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/resolve-conditional-value.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/resolve-import.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/resolve-import.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/is-windows.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/is-windows.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/get-conditional-values-list.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/get-conditional-values-list.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/stack/dist/esm/parse.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/@tapjs/stack/src/parse.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/errors.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/errors.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/get-named-exports-list.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/get-named-exports-list.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/read-pkg.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/read-pkg.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/resolve-export.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/resolve-export.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/star-glob.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/star-glob.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/to-path.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/to-path.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/file-exists.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/file-exists.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/find-dep-package.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/find-dep-package.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/to-file-url.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/to-file-url.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/resolve-dependency-export.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/resolve-dependency-export.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/resolve-package-import.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/resolve-package-import.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/read-json.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/read-json.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/dist/esm/find-star-match.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/src/find-star-match.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/walk-up-path/dist/esm/index.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/walk-up-path/src/index.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/dist/esm/index.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/src/index.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/dist/esm/index.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/src/index.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/dist/esm/has-magic.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/src/has-magic.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/dist/esm/glob.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/src/glob.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/dist/esm/ignore.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/src/ignore.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/dist/esm/assert-valid-pattern.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/src/assert-valid-pattern.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/dist/esm/escape.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/src/escape.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/dist/esm/pattern.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/src/pattern.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/dist/esm/ast.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/src/ast.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/dist/esm/unescape.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/src/unescape.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/dist/esm/walker.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/src/walker.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/path-scurry/dist/esm/index.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/path-scurry/src/index.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/dist/esm/brace-expressions.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/minimatch/src/brace-expressions.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/path-scurry/node_modules/lru-cache/dist/esm/index.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/path-scurry/node_modules/lru-cache/src/index.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/dist/esm/processor.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/resolve-import/node_modules/glob/src/processor.ts"
+    ],
+    "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/minipass/dist/esm/index.js": [
+      "/Users/simone.corsi/repositories/simonecorsi/declarative-markdown/node_modules/minipass/src/index.ts"
+    ]
+  },
+  "root": "375f69dd-431b-4ebf-8f21-862e8f7769b4",
+  "externalID": "test/common.ts",
+  "code": 0,
+  "signal": null,
+  "runtime": 618.951958
+}
