@@ -50,7 +50,7 @@
     "@semantic-release/release-notes-generator": "^14.0.0",
     "@types/node": "^24.0.0",
     "@types/tap": "^18.0.0",
-    "lefthook": "^1.11.3",
+    "lefthook": "^2.0.0",
     "markdown-toc": "^1.2.0",
     "tap": "^21.0.0",
     "ts-node": "^10.2.1",
